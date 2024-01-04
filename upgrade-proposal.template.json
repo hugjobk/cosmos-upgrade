@@ -1,0 +1,16 @@
+{
+  "messages": [
+    {
+      "@type": "/cosmos.upgrade.v1beta1.MsgSoftwareUpgrade",
+      "authority": "cosmos10d07y265gmmuvt4z0w9aw880jnsr700j6zn9kn",
+      "plan": {
+        "name": "v047-to-v050",
+        "height": "20",
+        "info": "http://127.0.0.1:8080/simd-info.json?checksum=sha256:${INFO_HASH}"
+      }
+    }
+  ],
+  "deposit": "10000000stake",
+  "title": "upgrade",
+  "summary": "upgrade"
+}

@@ -1,0 +1,7 @@
+{
+  "binaries": {
+    "linux/amd64": "http://127.0.0.1:8080/simd.zip?checksum=sha256:${BIN_HASH}",
+    "linux/arm64": "http://127.0.0.1:8080/simd.zip?checksum=sha256:${BIN_HASH}",
+    "darwin/amd64": "http://127.0.0.1:8080/simd.zip?checksum=sha256:${BIN_HASH}"
+  }
+}
